@@ -32,20 +32,30 @@ Rest of the solution can be found under those links:
 8. User can report the alert or mark it as false alarm.
 
 
-# Tech Stack for this Part
+## Tech Stack for this Part
 
 1. C#
 2. .NET 8
 3. Visual Studio 2022
+4. Solution was hosted using Azure Cloud:
+    1. App Service for API
+    2. Azure Tables for data storage
+    3. Azure Blob Storage for files
+    4. Azure Static Web Site on Blob Storage for UI (separate repository)
 
-# Video Capture
+## Video Capture
 
 Capture Image Project uses [opencvsharp](https://github.com/shimat/opencvsharp) to capture image from camera attached to the pc.
 It sends frames in hardcoded interval.
 
-# Image Processing Pipeline API
+## Image Processing Pipeline API
 
 UploadImageForProcessing is a ASP.NET web API exposing functionality to:
 1. store and modify image metadata (stored in Azure Tables)
 2. upload images to Azure Blob Storage
 3. (optionally) send images to processing to Azure Vision AI
+
+
+# Resources
+
+![Azure Resources](media/azure_resources.jpg)
