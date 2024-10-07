@@ -1,0 +1,5 @@
+@UploadImageForProcessing_HostAddress = http://localhost:5034
+
+POST {{UploadImageForProcessing_HostAddress}}/uploadfile/
+
+###
