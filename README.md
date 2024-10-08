@@ -5,7 +5,7 @@ Software created for AEC Hackathon Wroclaw Edition 2024
 
 [Hackaton Info on Wroclaw University of Technology Site](https://pwr.edu.pl/uczelnia/przed-nami/aec-hackathon-wroclaw-edition-1927.html)
 
-Phis project is part of a larger solution presented at AEC Hackathon Wroclaw Edition 2024.
+This project is part of a larger solution presented at AEC Hackathon Wroclaw Edition 2024.
 
 In particular it's a response to a specific challange:
 > Smart EHS System for Construction Sites – we are looking for innovative solutions to support us in health and safety, ensuring effective prevention and response to potential hazards.
@@ -16,7 +16,7 @@ Rest of the solution can be found under those links:
 
 [Source code for UI Part](https://github.com/mmilian/whistleblower)
 
-[Source Code for External Incident Detection Module - TODO](TODO)
+[Source Code for External Incident Detection Module](https://github.com/ktrybuszewski/whistleblower)
 
 
 # Overall Solution
